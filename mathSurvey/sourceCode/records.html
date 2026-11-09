@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Survey Records</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Math Survey Records</h1>
+    <p><a href="form.html">Fill out or edit your survey</a> | <a href="index.html">Return to login</a></p>
+    <p id="statistics"></p>
+    <p>
+        <label>Account ID
+            <select id="id_select"></select>
+        </label>
+    </p>
+    <p id="output"></p>
+    <table>
+        <tr><th>Question</th><th>Answer</th></tr>
+        <tr><th>Account ID</th><td id="record_id"></td></tr>
+        <tr><th>Name</th><td id="record_name"></td></tr>
+        <tr><th>Favorite math topic</th><td id="record_topic"></td></tr>
+        <tr><th>Math confidence</th><td id="record_confidence"></td></tr>
+        <tr><th>Study hours per week</th><td id="record_hours"></td></tr>
+        <tr><th>What you want to learn</th><td id="record_notes"></td></tr>
+    </table>
+    <script src="records.js"></script>
+</body>
+</html>

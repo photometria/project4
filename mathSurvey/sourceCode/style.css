@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 25px auto;
+    padding: 0px 18px;
+    max-width: 760px;
+    background: #f6f6f1;
+    color: #222;
+}
+
+h1{
+    color: #24475b;
+}
+
+a{
+    color: #164f88;
+}
+
+input, select, textarea, button{
+    font: inherit;
+}
+
+input[type="text"], input[type="password"], textarea{
+    width: 95%;
+    max-width: 420px;
+}
+
+button{
+    padding: 7px 14px;
+    cursor: pointer;
+}
+
+fieldset{
+    border: 2px solid #687d87;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+}
+
+th{
+    background: #e3eaf0;
+}

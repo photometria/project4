@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Math Survey Form</h1>
+    <p><a href="records.html">View records</a> | <a href="index.html">Return to login</a></p>
+    <p id="account_id"></p>
+    <form id="survey_form">
+        <fieldset>
+            <legend>Your math experience</legend>
+            <p>
+                <label>Name<br>
+                    <input id="name" type="text">
+                </label>
+            </p>
+            <p>
+                <label>Favorite math topic<br>
+                    <select id="topic">
+                        <option value="">Choose a topic</option>
+                        <option>Algebra</option>
+                        <option>Geometry</option>
+                        <option>Statistics</option>
+                    </select>
+                </label>
+            </p>
+            <p>How confident do you feel about math?</p>
+            <p>
+                <label><input type="radio" name="confidence" value="Low"> Low</label>
+                <label><input type="radio" name="confidence" value="Medium"> Medium</label>
+                <label><input type="radio" name="confidence" value="High"> High</label>
+            </p>
+            <p>
+                <label>Hours studying math per week (0–168)<br>
+                    <input id="hours" type="number">
+                </label>
+            </p>
+            <p>
+                <label>What would you like to learn?<br>
+                    <textarea id="notes" rows="5"></textarea>
+                </label>
+            </p>
+        </fieldset>
+        <p>
+            <label>Enter your password to save your answers<br>
+                <input id="verify_password" type="password">
+            </label>
+        </p>
+        <button id="save_button" disabled>Save answers</button>
+    </form>
+    <p id="output"></p>
+    <script src="form.js"></script>
+</body>
+</html>
